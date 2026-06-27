@@ -1,0 +1,28 @@
+// This config is in the KDL format: https://kdl.dev
+// "/-" comments out the following node.
+// Check the wiki for a full description of the configuration:
+// https://yalter.github.io/niri/Configuration:-Introduction
+
+include "sections/animations.kdl"
+include "sections/binds.kdl"
+include "sections/cursor.kdl"
+include "sections/input.kdl"
+include "sections/layout.kdl"
+include "sections/miscellanous.kdl"
+include "sections/output.kdl"
+include "sections/spawn_at_startup.kdl"
+include "sections/window_rules.kdl"
+
+
+overview{
+  //zoom 0.4
+  workspace-shadow {
+    off
+  }
+}
+
+layer-rule {
+  match namespace="^noctalia-overview*"
+  place-within-backdrop true
+}
+

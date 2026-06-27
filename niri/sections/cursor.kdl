@@ -1,0 +1,9 @@
+
+cursor {
+  xcursor-theme "Vimix-cursors" 
+ // xcursor-theme "Breeze_Light" 
+ // xcursor-theme "breeze_cursors" 
+ // xcursor-theme "Adwaita" 
+ // xcursor-theme "Vimix-white-cursors" 
+    "xcursor-size" 30
+}

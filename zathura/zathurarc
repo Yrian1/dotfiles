@@ -1,0 +1,16 @@
+#set recolor   
+#underline words hightlight
+set recolor-keephue 
+set default-bg \#131313
+
+#light dark mode
+#set recolor-darkcolor \#839496
+#set recolor-lightcolor \#222222
+
+# SEPIA MODE 
+set recolor-lightcolor \#F4ECD8
+set recolor-darkcolor \#131313
+
+
+# transparent background
+#set default-bg \#6db46
